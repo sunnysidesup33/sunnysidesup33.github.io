@@ -21,7 +21,7 @@ function preload() {
 }
 
 function setup() {
- let c = createCanvas(windowWidth/2, windowHeight);
+createCanvas(windowWidth/2, windowHeight);
   
   background(colorFill);
   image(img, 0, 0, windowWidth/2, windowHeight);
