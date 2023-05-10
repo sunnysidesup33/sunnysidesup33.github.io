@@ -21,10 +21,10 @@ function preload() {
 }
 
 function setup() {
- let c = createCanvas(windowWidth/2, windowHeight/2);
+ let c = createCanvas(windowWidth/2, windowHeight);
   
   background(colorFill);
-  image(img, 0, 0, windowWidth/2, windowHeight/2);
+  image(img, 0, 0, windowWidth/2, windowHeight);
   noStroke();
   partyToggleInfo(true);
   // saveCanvas(c, 'Our_Creation', 'jpg');
